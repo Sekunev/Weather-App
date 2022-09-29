@@ -98,7 +98,10 @@ const aciklama = document.querySelector(".newsList");
 //* buton click
 button.addEventListener("click", () => {
   if (cities.includes(input.value.toLowerCase())) {
-    aciklama.innerHTML = `<h2>You already know the weather in ${input.value.toUpperCase()}</h2>`;
+    aciklama.innerHTML = `<h2>You already know the weather in ${input.value.toLowerCase()}</h2>`;
+    setTimeout(() => {
+      aciklama.innerHTML = "";
+    }, 1500);
   }
   if (listElementCounter <= 3) {
     if (listElementCounter == 3) {
@@ -106,12 +109,13 @@ button.addEventListener("click", () => {
       listElementCounter--;
       row.querySelector(".card").remove();
     }
-    cities.push(input.value.toLowerCase());
-    getWeather(input.value);
-    aciklama.innerHTML = "<h2> </h2>";
+    if (!cities.includes(input.value.toLowerCase())) {
+      cities.push(input.value.toLowerCase());
+      getWeather(input.value);
+      // aciklama.innerHTML = "<h2> </h2>";
+    }
   }
 
-  // console.log(cities);
   input.value = "";
 });
 
