@@ -1,6 +1,6 @@
-# İOS Calculator (CSS Grid)
+# Weather-App 
 
-### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/19_Calculator/)
+### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Weather-App/)
 
 ### Description
 
