@@ -9,6 +9,10 @@ Project aims to display current weather data of searched city around the world w
 ### Visualization of the Website
 
 ![image](https://github.com/Sekunev/Weather-app-asyn-await-/blob/main/Weather-App.gif)
+![image](https://user-images.githubusercontent.com/101554737/193043471-7ee0ec81-0edf-4c68-888e-a04d96f9d30a.png)
+![image](https://user-images.githubusercontent.com/101554737/193043575-0cb19e54-4793-428d-940d-94059a65a281.png)
+
+
 
 ### Project Skeleton
 
